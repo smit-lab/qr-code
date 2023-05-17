@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+//font
+$fw-heading: 700;
+$fw-body: 400;
+$lh-heading-body: 1.27;
+$ls-body: 0.1875px;
+//color
+$blue: #2C7DFA;
+$BGC: #F2F2F2;
+$darkNavy: #1F314F;
+$gray: #7D889E;
+$white: #fff;
+
+//grid-centering
+
+@mixin grid-centering {
+  display: grid;
+  place-content: center;
+}

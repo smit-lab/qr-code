@@ -1,0 +1,42 @@
+@import "reset";
+@import "global";
+@import "function";
+
+body {
+  @include grid-centering;
+  background-color: $BGC;
+}
+
+.container {
+  width: rem(320);
+  border-radius: rem(20);
+  background-color: $white;
+  padding: rem(16) rem(16) rem(40);
+}
+
+.qr-code-img {
+  width: rem(288);
+  height: rem(288);
+  border-radius: rem(10);
+  margin-bottom: rem(24);
+}
+
+.heading, .para {
+  text-align: center;
+}
+
+.heading {
+  font-size: rem(22);
+  line-height: $lh-heading-body;
+  font-weight: $fw-heading;
+  color: $darkNavy;
+margin-bottom: rem(16);
+}
+
+.para {
+  font-size: rem(15);
+  line-height: $lh-heading-body;
+  letter-spacing: $ls-body;
+  color: $gray;
+  padding: 0 rem(16);
+}
